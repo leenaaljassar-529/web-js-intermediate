@@ -39,18 +39,7 @@
   </head>
   <body style="background-color: #d6e0ed;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Home</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      
   
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
@@ -67,8 +56,8 @@
                     Shopping
                   </a>
                   <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Embroidery thread</a>
-                    <a class="dropdown-item" href="#">Crochet yarn</a>
+                    <a class="dropdown-item" href="#embroiderythread">Embroidery thread</a>
+                    <a class="dropdown-item" href="#crochetyarn">Crochet yarn</a>
                    
                 </li>
             <li class="nav-item">
@@ -102,6 +91,9 @@
     <div>
  <h2 class="text-center title">Welcome to the shop!</h2>
     </div>
+    <div>
+        <h2 id="embroiderythread" class="subtitle">Embriodery Thread</h2>
+           </div>
     <!-- container -->
     <div class="container">
       <div class="row">
@@ -147,7 +139,7 @@
 
 
         </div>
-        <div class="col-sm-6 flamingo insetshadow">
+        <div class="col-sm-6  insetshadow">
                 <img style="width:450px" src="./img/orange.jpg" />
                 <h2 id="addcart6">Orange thread</h2>
                 <h4> Price: 0.75 KD</h4>
@@ -157,7 +149,63 @@
         </div>
       </div>
     </div>
-
+    <div>
+        <h2 id="crochetyarn" class="subtitle">Crochet Yarn</h2>
+           </div>
+           <div class="container">
+            <div class="row">
+                <!-- thread start -->
+              <div class="col-sm-6  insetshadow">
+                <img style="width:450px" src="./img/peach.jpg" />
+                <h2 id="addcart7">Peach Yarn</h2>
+                <h4> Price: 0.5 KD</h4>
+                <button onclick="addtocart7()" type="button" class="btn btn-info">Add to Cart</button>
+      
+              </div>
+              <div class="col-sm-6  insetshadow">
+                      <img style="width:450px" src="./img/yellow yarn.jpg" />
+                      <h2 id="addcart8">Yellow Yarn</h2>
+                      <h4> Price: 0.5 KD</h4>
+                      <button  onclick="addtocart8()" type="button" class="btn btn-info">Add to Cart</button>
+       
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6  insetshadow">
+                      <img style="width:450px" src="./img/blueyarn.jpg" />
+                      <h2 id="addcart9">Blue Yarn</h2>
+                      <h4> Price: 0.5 KD</h4>
+                      <button  onclick="addtocart9()"type="button" class="btn btn-info">Add to Cart</button>
+      
+             
+              </div>
+              <div class="col-sm-6  insetshadow">
+                      <img style="width:450px" src="./img/light blue yarn.jpg" />
+                      <h2 id="addcart10">Light Blue Yarn</h2>
+                      <h4> Price: 0.5 KD</h4>
+                      <button  onclick="addtocart10()"type="button" class="btn btn-info">Add to Cart</button>
+      
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-6  insetshadow">
+                      <img style="width:450px" src="./img/brown yarn.jpg" />
+                      <h2 id="addcart11">Brown Yarn</h2>
+                      <h4> Price: 0.5 KD</h4>
+                      <button onclick="addtocart11()" type="button" class="btn btn-info">Add to Cart</button>
+      
+      
+              </div>
+              <div class="col-sm-6  insetshadow">
+                      <img style="width:450px" src="./img/pink yarn.jpg" />
+                      <h2 id="addcart12">Pink Yarn</h2>
+                      <h4> Price: 0.5 KD</h4>
+                      <button  onclick="addtocart12()"type="button" class="btn btn-info">Add to Cart</button>
+      
+         
+              </div>
+            </div>
+          </div>
 <div >
     <h3 style="margin-top: 10px"class="title text-center"> CART:</h3>
 <ul id="itemslist">

@@ -37,6 +37,40 @@ function addtocart6() {
     "<li>" + cart6 + "</li>" + price;
 }
 
+let price2 = "0.5 KD";
+function addtocart7() {
+  let cart7 = document.getElementById("addcart7").innerHTML;
+
+  document.getElementById("itemslist").innerHTML +=
+    "<li>" + cart1 + "</li>" + price2;
+}
+function addtocart8() {
+  let cart8 = document.getElementById("addcart8").innerHTML;
+  document.getElementById("itemslist").innerHTML +=
+    "<li>" + cart8 + "</li>" + price2;
+}
+function addtocart9() {
+  let cart9 = document.getElementById("addcart9").innerHTML;
+  document.getElementById("itemslist").innerHTML +=
+    "<li>" + cart9 + "</li>" + price2;
+}
+function addtocart10() {
+  let cart10 = document.getElementById("addcart10").innerHTML;
+  document.getElementById("itemslist").innerHTML +=
+    "<li>" + cart10 + "</li>" + price2;
+}
+function addtocart11() {
+  let cart11 = document.getElementById("addcart11").innerHTML;
+  document.getElementById("itemslist").innerHTML +=
+    "<li>" + cart11 + "</li>" + price2;
+}
+function addtocart12() {
+  let cart12 = document.getElementById("addcart12").innerHTML;
+
+  document.getElementById("itemslist").innerHTML +=
+    "<li>" + cart12 + "</li>" + price2;
+}
+
 // let counter = 1;
 
 // function totalprice() {

@@ -13,3 +13,9 @@ li {
   display: list-item;
   font-size: x-large;
 }
+
+.subtitle {
+  background-color: cornflowerblue;
+  text-align: center;
+  margin-left: 0px;
+}
