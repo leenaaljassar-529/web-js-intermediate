@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link
+      rel="stylesheet"
+      href="assests/bootstrap-4.5.0-dist/css/bootstrap.min.css"
+    />
+     <!-- font -->
+     
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+
+
+    </style>
+  </head>
+  <body style="background-color: #d6e0ed;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Home</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+              <li class="nav-item dropdown">
+                  <a
+                    class="nav-link dropdown-toggle"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                  >
+                    Shopping
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Embroidery thread</a>
+                    <a class="dropdown-item" href="#">Crochet yarn</a>
+                   
+                </li>
+            <li class="nav-item">
+              <button style="margin-right: 2px;" type="button" class="btn btn-info btn-sm" id="cartnumber">Cart (0)</button>
+  
+              <!-- <a class="nav-link" href="#">Cart</a> -->
+            </li>
+            
+            <li class="nav-item">
+              <button type="button" class="btn btn-secondary btn-sm">Clear Cart </button>
+              <!-- <a class="nav-link" href="#">Clear Cart</a> -->
+            </li>
+         
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-secondary my-2 my-sm-0" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </nav>
+  
+
+    <!-- explaination -->
+    <div>
+ <h2 class="text-center title">Welcome to the shop!</h2>
+    </div>
+    <!-- container -->
+    <div class="container">
+      <div class="row">
+          <!-- thread start -->
+        <div class="col-sm-6  insetshadow">
+          <img style="width:450px" src="./img/blue.jpg" />
+          <h2 id="addcart1">Blue thread</h2>
+          <h4> Price: 0.75 KD</h4>
+          <button onclick="addtocart()" type="button" class="btn btn-info">Add to Cart</button>
+
+        </div>
+        <div class="col-sm-6  insetshadow">
+                <img style="width:450px" src="./img/brown.jpg" />
+                <h2 id="addcart2">Brown thread</h2>
+                <h4> Price: 0.75 KD</h4>
+                <button  onclick="addtocart2()" type="button" class="btn btn-info">Add to Cart</button>
+ 
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6  insetshadow">
+                <img style="width:450px" src="./img/green.jpg" />
+                <h2 id="addcart3">Green thread</h2>
+                <h4> Price: 0.75 KD</h4>
+                <button  onclick="addtocart3()"type="button" class="btn btn-info">Add to Cart</button>
+
+       
+        </div>
+        <div class="col-sm-6  insetshadow">
+                <img style="width:450px" src="./img/yellow.jpg" />
+                <h2 id="addcart4">Yellow thread</h2>
+                <h4> Price: 0.75 KD</h4>
+                <button  onclick="addtocart4()"type="button" class="btn btn-info">Add to Cart</button>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6  insetshadow">
+                <img style="width:450px" src="./img/purple.jpg" />
+                <h2 id="addcart5">Purple thread</h2>
+                <h4> Price: 0.75 KD</h4>
+                <button onclick="addtocart5()" type="button" class="btn btn-info">Add to Cart</button>
+
+
+        </div>
+        <div class="col-sm-6 flamingo insetshadow">
+                <img style="width:450px" src="./img/orange.jpg" />
+                <h2 id="addcart6">Orange thread</h2>
+                <h4> Price: 0.75 KD</h4>
+                <button  onclick="addtocart6()"type="button" class="btn btn-info">Add to Cart</button>
+
+   
+        </div>
+      </div>
+    </div>
+
+<div >
+    <h3 style="margin-top: 10px"class="title text-center"> CART:</h3>
+<ul id="itemslist">
+
+</ul>
+<!-- <h3 id="total"> Total= </h3> -->
+</div>
+
+
+
+<script src="./scripts.js"></script>
+
+  </body>
+</html>

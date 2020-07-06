@@ -1,0 +1,15 @@
+.subtitle {
+  margin-left: 40px;
+}
+
+.title {
+  font-size: 100px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-color: rgb(142, 178, 232);
+}
+
+li {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  display: list-item;
+  font-size: x-large;
+}
